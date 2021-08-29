@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+    box-shadow: 5px 5px 11px 0px gainsboro;
+    max-width: 90%;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
