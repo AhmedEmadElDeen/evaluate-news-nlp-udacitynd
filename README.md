@@ -67,7 +67,7 @@ To use the web app, enter a URL in the input field and press the **Submit** butt
 
 ## Author
 
-Code is created by Ahmed Emad ElDeen, using starter code by Udacity for Udacity's front-end advanced nanodegree program.
+Code is created by [Ahmed Emad ElDeen](https://github.com/AhmedEmadElDeen), using starter code by Udacity for Udacity's front-end advanced nanodegree program.
 
 ## starter-template-app
 
