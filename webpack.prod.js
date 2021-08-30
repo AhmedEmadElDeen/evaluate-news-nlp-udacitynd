@@ -6,9 +6,13 @@ const TerserPlugin = require('terser-webpack-plugin')
 
 module.exports = {
     entry: './src/client/index.js',
+    output: {
+        libraryTarget: 'var',
+        library:'Client',
+        filename:'[name].[contenthash].js'
+    },
     mode: 'production',
     module: {
-
     rules: [
         {
             test: '/.js$/',
@@ -21,7 +25,6 @@ module.exports = {
         },
     ]
     },
-
     plugins: [
         new HtmlWebPackPlugin({
             template: './src/client/views/index.html',
