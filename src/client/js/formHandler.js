@@ -28,7 +28,6 @@ function updateResult (res) {
         document.getElementById('subjectivity').innerHTML = `Subjectivity: ${res.subjectivity}`
         document.getElementById('confidence').innerHTML = `Confidence: ${res.confidence}`
         document.getElementById('irony').innerHTML = `Irony: ${res.irony}`
-        document.getElementById('score-tag').innerHTML = `Score Tag: ${res.score_tag}`
 }
 
 export { handleSubmit }
